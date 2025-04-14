@@ -1,18 +1,5 @@
 import time
 
-# Check if a number is positive, negative, or zero
-n = int(input("Enter a number: "))
-try:
-    if n > 0:
-        print("Positive")
-    elif n < 0:
-        print("Negative")
-    else:
-        print("Zero")
-except ValueError:
-    print("Enter a valid number")
-time.sleep(1)
-
 # Check height limit for a ride
 height = float(input("Enter your height in cm: "))
 try:
