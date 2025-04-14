@@ -1,5 +1,4 @@
 import random
-import time
 
 L = ["손더스, 강수린, 김민채, 김보은, 김아윤"]
 E = [100, 99, 98, 97, 96]
@@ -19,7 +18,6 @@ print(E, L)
 L.remove("손더스")
 L.sort(reverse=True)
 E.sort(reverse=True)
-time.sleep(1)
 print(E,L)
 E.pop()
 E.pop()
