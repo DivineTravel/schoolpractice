@@ -2,8 +2,10 @@
 h = 1.7
 w = 60
 bmi = w / (h ** 2)
+# print를 p로 축약
 p = print
 
+# BMI 계산
 p(bmi)
 p(18.5 <= bmi < 23)
 p()
@@ -20,7 +22,7 @@ import random
 r = random
 a = r.randint(100, 155)
 b = r.randint(60, 100)
-
+# 혈압 계산
 p("수축기 혈압:", a, "이완기 혈압:",b)
 p("정상 혈압", a < 120 and b < 80)
 p("주의 혈압", 120 <= a < 130 and 80 > b)
