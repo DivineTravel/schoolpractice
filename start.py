@@ -1,32 +1,26 @@
 import turtle
-
+# 사각형 그리기
 t = turtle.Pen("turtle")
-x = 5489 # ご予約 (고요야쿠)
-y = 178101 # 因幡 てゐ (이나바 테위)   
-z = 890006 # 博麗 霊夢 (하쿠레이 레이무)
-name = '신지혜'
-age = 17
-phone = '010-5362-1851'
+t.forward(200)
+t.left(90)
+t.forward(200)
+t.left(90)
+t.forward(200)
+t.left(90)
+t.forward(200)
 
+
+name = '홍길동'
+age = 15
+phone = '010-1234-5678'
+# 이름, 나이, 폰번호 각각 출력
 print(name, age, phone)
+# 이름 100번 출력
 print(name*100)
 
-# Turtling a 20 sided polygon
-for i in range(20):
-    t.forward(200)
-    t.left(18)
-
-print('She said "I want to suicide"')
-print("I'm trying to\nlearn python")
-print("""It's not as hard as
-I expected""")
-
-print()
+# 문자열에서 특정 부분만 출력
 print('I am useless'[0:4])
 print('I am useless'[5:13])
-
-print()
-print(len('Expected'),len('n'),len('suiciding'))
-
-print(x, y, z)
+# 문자열의 글자 수 출력
+print(len('Expected'),len('n'),len('helloworld'))
 
