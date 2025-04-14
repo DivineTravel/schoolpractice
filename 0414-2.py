@@ -12,13 +12,6 @@ for b in 'hello':
 for c in range(1,4):
     print(c)
 
-i = 0
-while i < 3:
-    print(f"Outer loop: {i}")
-    for j in range(2):
-        print(f"  Inner loop: {j}")
-    i += 1
-
 d = int(input("Multiplication table: "))
 for n in range(1, 10):
     print(f"{d} x {n} = {d*n}")
