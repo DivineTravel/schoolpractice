@@ -1,3 +1,6 @@
+# 연산자
+# (), **, * / // %, + -, < <= > >= == != 등
+
 a=10
 b=5
 print(a != b*2)
@@ -9,8 +12,6 @@ e = 3<5
 print(c and d)
 print(not c and d)
 print(c or d)
-
-# (), **, * / // %, + -, < <= > >= == !=, not, and, or
 
 x = True
 y = False
