@@ -1,7 +1,7 @@
 import random
 a = [1, 100, "hello", True, 3>5]
 print(a)
-b = random.randint(0, 4) # 0부터 4까지의 정수 중 하나를 무작위 출력 (굳이 이렇게 안해도 됨)
+b = random.randint(0, 4) # 0부터 4까지의 정수 중 하나를 무작위 출력 (안해도 됨)
 print(a[b], type(a[b]))
 print(a[1:4])
 print()
