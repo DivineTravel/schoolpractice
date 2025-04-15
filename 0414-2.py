@@ -29,6 +29,6 @@ t = 5
 countdown(int(t))
 
 # 100이하의 5의 배수 출력
-for num in range(5, 100, 5):
-    print(num)
+for number in range(5, 100, 5):
+    print(number)
 
