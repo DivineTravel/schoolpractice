@@ -2,7 +2,7 @@ a = [[6, 4], [7, 2], [[8, 9], [1, 5, 9, 0]]]
 print(a, len(a))
 print(a[2][0][0])
 
-b = "happy birthday!"
+b = "happy birthday!!"
 print(b[6:14])
 
 c = '20'
