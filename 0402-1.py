@@ -13,7 +13,7 @@ print(L[2:4])
 print(E[:3])
 
 E.append(1000)
-L.insert(2, "신지혜")
+L.insert(2, "홍길동")
 print(E, L)
 L.remove("손더스")
 L.sort(reverse=True)
