@@ -1,6 +1,6 @@
 import time
 
-# Check height limit for a ride
+# Check height limit
 height = float(input("Enter your height in cm: "))
 try:
     if height < 140:
