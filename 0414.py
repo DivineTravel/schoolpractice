@@ -1,5 +1,3 @@
-import time
-
 s = int(input())
 if s >= 80:
     print("A")
@@ -7,8 +5,6 @@ elif s >= 60:
     print("B")
 else:
     print("C")
-
-time.sleep(1)
 
 def calgrade(score):
     if score >= 90:
@@ -34,8 +30,6 @@ def validscore(prompt):
 score = validscore("Enter your score: ")
 grade = calgrade(score)
 print("Your grade is:", grade)
-
-time.sleep(1)
 
 height = int(input("Enter your height in cm: "))
 try:
