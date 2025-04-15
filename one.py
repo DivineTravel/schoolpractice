@@ -1,5 +1,5 @@
 import turtle
-# 사각형 그리기
+# 터틀 사각형 그리기
 t = turtle.Pen("turtle")
 t.forward(200)
 t.left(90)
