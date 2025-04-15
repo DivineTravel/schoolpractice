@@ -7,3 +7,4 @@ try:
         print("Within speed limit")
 except ValueError:
     print("Please enter a valid speed")
+print(End of program)
