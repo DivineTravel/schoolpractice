@@ -10,5 +10,6 @@ def는 if를 바로 쓸때처럼 결과를 바로 출력하는게 아니라, 입
 
 time.sleep은 원하는 시간동안 실행을 중지하는 기능이고, 쓸때 반드시 import time을 맨위에 한번 써야해 (제일 많이 쓰이는 외부 라이브러리 중 하나이고 교과서에도 나오니까 기억해둬)
 
-**깃허브 다운로드 방법 모르면 [링크 클릭](https://www.mediafire.com/folder/gaspalhmdcv2u/school)**
+**[파일 다운로드](https://www.mediafire.com/folder/gaspalhmdcv2u/school)**
+^ 깃허브에서도 할수 있지만 처음보면 찾기가 쉽지 않아서 따로 만들어놨어!
 
