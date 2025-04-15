@@ -7,3 +7,4 @@ if username == "admin":
         print("Wrong Password")
 else:
     print("This user does not exist")
+print("End of program")
