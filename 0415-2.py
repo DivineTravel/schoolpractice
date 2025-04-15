@@ -2,7 +2,6 @@ import turtle
 
 pop = ["basic", "caramell", "garlic"]
 soda = ["cola", "orange", "grape"] 
-
 for i in pop:
     for j in soda:
         print(i,j)
