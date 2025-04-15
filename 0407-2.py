@@ -5,7 +5,7 @@ m = int(input("Enter the number of children: "))
 total = adult * n + (child * 0.8) * m 
 print("Total price:", total)
 
-currentYear = 2025
+currentyear = 2025
 birthYear = int(input("Enter the year you were born: "))
-age = currentYear - birthYear
+age = currentyear - birthYear
 print("You are", age, "years old.")
